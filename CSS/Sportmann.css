@@ -1,0 +1,93 @@
+*{
+    font-family: 'Nerko One', cursive;       
+    margin: 0px;
+}
+
+.header__h1-sportmann{    
+    text-align: center;
+    display: block;
+    font-size: 50px; 
+    line-height: 1;  
+    font-weight: 50;
+    font-stretch: normal;
+    margin: auto;
+    padding: 50px;    
+    background-color: greenyellow;
+    
+}
+
+
+.body__div-lista{       
+    list-style: none;   
+    background-color: whitesmoke;    
+    margin: 0px;    
+}     
+
+.body__items{        
+    /*background-color: whitesmoke;*/
+    flex-direction: row;    
+    justify-content: space-between;
+    display: inline-block;    
+    min-width: 33%;    
+    height: 100px;
+    width: 100px; 
+    padding: 0px;
+    
+}
+@media (hover: hover) { /*Media confirma si el dispositivo tiene un cursor o no*/    
+    .body__items:hover{                   
+    }    
+}
+
+.body_item-texto{
+    font-size: 30px;
+    list-style: none;
+    text-decoration: none;    
+    box-shadow: none;
+    color: black;
+    font-family: 'Nerko One', cursive;           
+}
+@media (hover:hover){
+    .body_item-texto:hover {    
+        font-size: 50px;
+        list-style: none;        
+        text-decoration: none;
+    }
+}
+
+
+.body__items-icon{    
+    height: 40px;
+    width: 40px;    
+    box-shadow: 0px 0px 0px 30px rgba(rgb(0, 255, 179), green, blue, alpha);
+    overflow: hidden;
+    transition: all 0.4s ease;
+}
+@media (hover:hover){
+.body__items-icon:hover{    
+    transition: 0.4s;    
+    height: 70px;
+    width: 70px;    
+    box-shadow: 0px 0px 0px 30px rgba(rgb(0, 255, 179), green, blue, alpa);
+    transition: all 0.8s ease;
+    }
+}
+    /*
+    .footer__nav{
+        list-style: none;
+        margin: auto;
+        padding: auto;
+    }
+    
+    .footer__nav-icon{
+    border-radius: 50%;
+    display: block;
+    width: 50px;
+    height: 50px;
+    
+    
+}
+*/
+/*facebook
+    tiempo de curso:1:50:42
+*/
